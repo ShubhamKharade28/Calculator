@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    height:96vh;
+    width: 28.6vw;
+    background-color: white;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 7px;
+}
+.input-output-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 43%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-container, .output-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size:xx-large;
+    padding:3vh;
+    font-weight:200;
+}
+.input-container {
+    color:rgba(0, 0, 0, 0.521);
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:57%;
+    grid-gap: 9px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border:0;
+    outline:0;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(165, 162, 162, 0.308);
+    cursor: pointer;
+}
+
+.red {
+    color: rgb(255, 60, 0);
+}
+
+.eql {
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+
+.eql:hover {
+    background-color: rgba(255, 60, 0, 0.801);
+}
